@@ -1,0 +1,29 @@
+{
+  "name": "mnq-strat-webhook-server",
+  "version": "1.0.0",
+  "description": "TradingView webhook receiver that forwards MNQ Strat signals to Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "tradingview",
+    "webhook",
+    "discord",
+    "trading",
+    "mnq"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
